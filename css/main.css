@@ -58,20 +58,28 @@ html {
   100% {
     transform: rotate(360deg);
   }
+
 }
 
-  @media (prefers-reduced-motion) {
-    .gear {
-      animation: none;
-    }
+@media (prefers-reduced-motion) {
+
+  .gear {
+    animation: none;
   }
+
+}
+
 @media (prefers-color-scheme: dark) {
-  main {
+
+  .banner {
     background-color: #111;
   }
+
+  .gear {
+    color: #111;
+  }
+
 }
-
-
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
