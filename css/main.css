@@ -61,25 +61,6 @@ html {
 
 }
 
-@media (prefers-reduced-motion) {
-
-  .gear {
-    animation: none;
-  }
-
-}
-
-@media (prefers-color-scheme: dark) {
-
-  .banner {
-    background-color: #111;
-  }
-
-  .gear {
-    color: #111;
-  }
-
-}
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
@@ -88,5 +69,25 @@ html {
  * Unfortunately, Markbot, is a little too old to understand them. :(
  * =============
  */
+
+@media (prefers-reduced-motion) {
+
+ .gear {
+   animation: none;
+ }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+ .banner {
+   background-color: #111;
+ }
+
+ .gear {
+   color: #111;
+ }
+
+}
 
 /* stylelint-enable */
